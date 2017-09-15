@@ -13,15 +13,27 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
 	<link rel="stylesheet" href="resources/css/style.css">
 
-
-
 </head>
 <body>
 <div class="header_default fixed">
-
+<div class="container">
+<span><img src="resources/images/hu.jpg" width=20px action=/hu/></span>
+<span><img src="resources/images/en.jpg" width=20px action=/en /></span>
+<span><img src="resources/images/pa.jpg" width=20px action=/pa/></span>
+<span><img src="resources/images/ur.jpg" width=20px action=/ur/></span>
+<span><img src="resources/images/pe.jpg" width=20px action=/pe/></span>
+</div>
+<div>
+<span><c:out value="${welcomeService.getName('services')}"></c:out> </span>
+<span><c:out value="${welcomeService.getName('references')}"></c:out> </span>
+<span><c:out value="${welcomeService.getName('inquiry')}"></c:out> </span>
+<span><c:out value="${welcomeService.getName('contact')}"></c:out> </span>
+</div>
 </div>
 <div class="entry-header clearfix">
-Ferdaus Mommand Fordító iroda
+<div class="container">
+<c:out value="${title}"></c:out>
+</div>
 </div>
 <img src="resources/images/image.jpg" width=500px/>
 

@@ -41,12 +41,12 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
 	
 	@Override
 	public void addViewControllers(ViewControllerRegistry registry) {
-		registry.addViewController("/").setViewName("welcomeHome");
+		registry.addViewController("/home").setViewName("welcomeHome");
 	}
 	
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
-       // registry.addResourceHandler("/resources/**").addResourceLocations("/resources/"); 
+       registry.addResourceHandler("/resources/**").addResourceLocations("/resources/"); 
     }
 	
 
