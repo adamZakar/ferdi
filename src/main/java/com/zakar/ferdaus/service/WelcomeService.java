@@ -21,12 +21,28 @@ public class WelcomeService implements GenericWelcomeService {
     }
 
     @Override
-    public void setResourceBundle(Locale locale) {
-        if (locale != null) {
-            this.resourceBundle = ResourceBundle.getBundle(DICTIONARY, locale);
-        } else {
+    public void setResourceBundle(String lang) {
+        if (lang == null) {
             this.resourceBundle = ResourceBundle.getBundle(DICTIONARY);
+        return;
         }
+
+        switch (lang) {
+            case "en":
+                resourceBundle=ResourceBundle.getBundle(DICTIONARY,new Locale("en", "EN"));
+                break;
+            case "pa":
+                resourceBundle=ResourceBundle.getBundle(DICTIONARY,new Locale("pa", "PA"));
+                break;
+            case "ur":
+                resourceBundle=ResourceBundle.getBundle(DICTIONARY,new Locale("ur", "UR"));
+                break;
+            case "pe":
+                resourceBundle=ResourceBundle.getBundle(DICTIONARY,new Locale("pe", "PE"));
+                break;
+        }
+
+
     }
 
     @Override
@@ -40,6 +56,7 @@ public class WelcomeService implements GenericWelcomeService {
         }
     }
 
+    @Override
     public Map<String, String> getInnerTexts(String page) {
         Set<String> keys = resourceBundle.keySet();
         Map<String, String> innerTexts = new HashMap();
@@ -49,6 +66,7 @@ public class WelcomeService implements GenericWelcomeService {
                 innerTexts.put(key.replace((page + "."), ""), resourceBundle.getString(key));
             }
         }
+        LOG.info(innerTexts.size()+" number of elements has been added to the html.");
         return innerTexts;
     }
 }

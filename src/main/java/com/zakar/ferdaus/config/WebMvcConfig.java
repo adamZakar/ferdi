@@ -27,12 +27,12 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
 	}
 
 
-	@Bean
-	public RequestMappingHandlerMapping requestMappingHandlerMapping() {
-		RequestMappingHandlerMapping requestMappingHandler= new RequestMappingHandlerMapping();
-		return requestMappingHandler;
-	}
-	
+//	@Bean
+//	public RequestMappingHandlerMapping requestMappingHandlerMapping() {
+//		RequestMappingHandlerMapping requestMappingHandler= new RequestMappingHandlerMapping();
+//		return requestMappingHandler;
+//	}
+//
 	
 //	@Override
 //	public void addViewControllers(ViewControllerRegistry registry) {

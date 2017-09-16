@@ -27,31 +27,18 @@ public class WelcomeController {
     @RequestMapping(value = "/home")
     public String doWelcome(@RequestParam(value = "lang",required =false) String lang, Model model) {
         LOG.info("Home has been called param:" +lang);
-        if(lang==null){
-            model.addAllAttributes(welcomeService.getInnerTexts("home"));
-            return "welcomeHome";
-        }
-        switch (lang) {
-            case "":
-                break;
-            case "en":
-                welcomeService.setResourceBundle(new Locale("en", "EN"));
-                break;
-            case "pa":
-                welcomeService.setResourceBundle(new Locale("pa", "PA"));
-                break;
-             case "ur":
-                welcomeService.setResourceBundle(new Locale("ur", "UR"));
-                break;
-             case "pe":
-                welcomeService.setResourceBundle(new Locale("pe", "PE"));
-                break;
-        }
+        welcomeService.setResourceBundle(lang);
         model.addAllAttributes(welcomeService.getInnerTexts("home"));
         return "welcomeHome";
     }
 
-
+    @RequestMapping(value = "/contact")
+    public String doContact(@RequestParam(value = "lang",required =false) String lang, Model model) {
+        LOG.info("Contact has been called param:" +lang);
+        welcomeService.setResourceBundle(lang);
+        model.addAllAttributes(welcomeService.getInnerTexts("contact"));
+        return "contact";
+    }
 
 
 }
