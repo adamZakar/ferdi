@@ -142,7 +142,7 @@ Header Section Start
         <div class="row">
             <div class="col-md-12">
                 <div class="block">
-                    <h2>Contact</h2>
+                    <h2><c:out value="${contact}"></c:out></h2>
                     <ol class="breadcrumb">
                         <li>
                             <a href="${path}/home${lang}">
