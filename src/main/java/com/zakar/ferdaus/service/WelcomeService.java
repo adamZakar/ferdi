@@ -12,9 +12,9 @@ public class WelcomeService implements GenericWelcomeService {
 
     private static Logger LOG = LoggerFactory.getLogger(WelcomeService.class);
 
-    private Locale locale;
     private static ResourceBundle resourceBundle;
     private String DICTIONARY = "dictionary";
+    private String BELONGSTOALLPAGE = "all";
 
     public WelcomeService() {
         this.resourceBundle = ResourceBundle.getBundle(DICTIONARY);
@@ -24,21 +24,21 @@ public class WelcomeService implements GenericWelcomeService {
     public void setResourceBundle(String lang) {
         if (lang == null) {
             this.resourceBundle = ResourceBundle.getBundle(DICTIONARY);
-        return;
+            return;
         }
 
         switch (lang) {
             case "en":
-                resourceBundle=ResourceBundle.getBundle(DICTIONARY,new Locale("en", "EN"));
+                resourceBundle = ResourceBundle.getBundle(DICTIONARY, new Locale("en", "EN"));
                 break;
             case "pa":
-                resourceBundle=ResourceBundle.getBundle(DICTIONARY,new Locale("pa", "PA"));
+                resourceBundle = ResourceBundle.getBundle(DICTIONARY, new Locale("pa", "PA"));
                 break;
             case "ur":
-                resourceBundle=ResourceBundle.getBundle(DICTIONARY,new Locale("ur", "UR"));
+                resourceBundle = ResourceBundle.getBundle(DICTIONARY, new Locale("ur", "UR"));
                 break;
             case "pe":
-                resourceBundle=ResourceBundle.getBundle(DICTIONARY,new Locale("pe", "PE"));
+                resourceBundle = ResourceBundle.getBundle(DICTIONARY, new Locale("pe", "PE"));
                 break;
         }
 
@@ -61,12 +61,12 @@ public class WelcomeService implements GenericWelcomeService {
         Set<String> keys = resourceBundle.keySet();
         Map<String, String> innerTexts = new HashMap();
         for (String key : keys) {
-            if (key.contains(page)) {
-                System.out.println(resourceBundle.getString(key));
-                innerTexts.put(key.replace((page + "."), ""), resourceBundle.getString(key));
+            if (key.contains(page) || key.contains(BELONGSTOALLPAGE)) {
+                String inputKey = key.replace((page + "."), "").replace((BELONGSTOALLPAGE + "."), "");
+                innerTexts.put(inputKey, resourceBundle.getString(key));
             }
         }
-        LOG.info(innerTexts.size()+" number of elements has been added to the html.");
+        LOG.info(innerTexts.size() + " number of elements has been added to the html.");
         return innerTexts;
     }
 }

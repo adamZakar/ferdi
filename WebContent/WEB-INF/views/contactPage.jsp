@@ -1,11 +1,20 @@
 <%--
   Created by IntelliJ IDEA.
-  User: ÃdÃ¡m
+  User: Ádám
   Date: 2017. 09. 16.
   Time: 22:59
   To change this template use File | Settings | File Templates.
 --%>
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+         pageEncoding="ISO-8859-1" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<c:if test="${empty param.lang}">
+    <c:set var="lang" value="" />
+</c:if>
+<c:if test="${not empty param.lang}">
+    <c:set var="lang" value="?lang=${param.lang}" />
+</c:if>
+<c:set var="path" value="${pageContext.request.contextPath}"/>;
 <!DOCTYPE html>
 <html class="no-js">
 <head>
@@ -91,34 +100,32 @@ Header Section Start
             <div class="main-menu">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <span><a href="${path}/home"> <img src="resources/images/hu.jpg" width=20px"/> </a></span>
+                        <span><a href="${path}/contact"> <img src="resources/images/hu.jpg" width=20px"/> </a></span>
                     </li>
                     <li>
-                        <span><a href="${path}/home?lang=en"> <img src="resources/images/en.jpg" width=20px/> </a></span>
+                        <span><a href="${path}/contact?lang=en"> <img src="resources/images/en.jpg" width=20px/> </a></span>
                     </li>
                     <li>
-                        <span><a href="${path}/home?lang=pa"> <img src="resources/images/pa.jpg" width=20px/> </a></span>
+                        <span><a href="${path}/contact?lang=pa"> <img src="resources/images/pa.jpg" width=20px/> </a></span>
                     </li>
                     <li>
-                        <span><a href="${path}/home?lang=ur"> <img src="resources/images/ur.jpg" width=20px/> </a></span>
+                        <span><a href="${path}/contact?lang=ur"> <img src="resources/images/ur.jpg" width=20px/> </a></span>
                     </li>
                     <li>
-                        <span><a href="${path}/home?lang=pe"> <img src="resources/images/pe.jpg" width=20px/> </a></span>
+                        <span><a href="${path}/contact?lang=pe"> <img src="resources/images/pe.jpg" width=20px/> </a></span>
                     </li>
-                    <li>
-                        <a href="index.html" >Home</a>
-                    </li>
-                    <li><a href="${path}/home"> <c:out value="${home}"></c:out> </a></li>
+
+                    <li><a href="${path}/home${lang}"> <c:out value="${home}"></c:out> </a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><c:out value="${services}"></c:out> <span class="caret"></span></a>
                         <div class="dropdown-menu">
                             <ul>
-                                <li><a href="${path}/translation"> <c:out value="${translation}"></c:out> </a></li>
-                                <li><a href="${path}/interpretition"><c:out value="${interpretition}"></c:out></a></li>
+                                <li><a href="${path}/translation${lang}"> <c:out value="${translation}"></c:out> </a></li>
+                                <li><a href="${path}/interpretition${lang}"><c:out value="${interpretition}"></c:out></a></li>
                             </ul>
                         </div>
                     </li>
-                    <li><a href="${path}/contact"><c:out value="${contact}"></c:out></a></li>
+                    <li><a href="${path}/contact${lang}"><c:out value="${contact}"></c:out></a></li>
                 </ul>
             </div>
         </nav>
@@ -138,12 +145,12 @@ Header Section Start
                     <h2>Contact</h2>
                     <ol class="breadcrumb">
                         <li>
-                            <a href="index.html">
+                            <a href="${path}/home${lang}">
                                 <i class="ion-ios-home"></i>
-                                Home
+                                <c:out value="${home}"></c:out>
                             </a>
                         </li>
-                        <li class="active">Contact</li>
+                        <li class="active"><c:out value="${contact}"></c:out></li>
                     </ol>
                 </div>
             </div>
