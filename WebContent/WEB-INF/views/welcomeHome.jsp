@@ -1,6 +1,7 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ page import="com.zakar.ferdaus.controller.WelcomeController" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html lang="en">
@@ -15,28 +16,27 @@
 
 </head>
 <body>
+
 <div class="header_default fixed">
-<div class="container">
-<span><img src="resources/images/hu.jpg" width=20px action=/hu/></span>
-<span><img src="resources/images/en.jpg" width=20px action=/en /></span>
-<span><img src="resources/images/pa.jpg" width=20px action=/pa/></span>
-<span><img src="resources/images/ur.jpg" width=20px action=/ur/></span>
-<span><img src="resources/images/pe.jpg" width=20px action=/pe/></span>
-</div>
-<div>
-<span><c:out value="${welcomeService.getName('services')}"></c:out> </span>
-<span><c:out value="${welcomeService.getName('references')}"></c:out> </span>
-<span><c:out value="${welcomeService.getName('inquiry')}"></c:out> </span>
-<span><c:out value="${welcomeService.getName('contact')}"></c:out> </span>
-</div>
+	<div class="container">
+		<span><img src="resources/images/hu.jpg" width=20px action=/hu/></span>
+		<span><img src="resources/images/en.jpg" width=20px action=/en /></span>
+		<span><img src="resources/images/pa.jpg" width=20px action=/pa/></span>
+		<span><img src="resources/images/ur.jpg" width=20px action=/ur/></span>
+		<span><img src="resources/images/pe.jpg" width=20px action=/pe/></span>
+	</div>
+	<div>
+		<span><c:out value="${services}"></c:out> </span>
+		<span><c:out value="${references}"></c:out> </span>
+		<span><c:out value="${inquiry}"></c:out> </span>
+		<span><c:out value="${contact}"></c:out> </span>
+	</div>
 </div>
 <div class="entry-header clearfix">
-<div class="container">
-<c:out value="${title}"></c:out>
-</div>
+	<div class="container">
+		<c:out value="${header_text}"></c:out>
+	</div>
 </div>
 <img src="resources/images/image.jpg" width=500px/>
-
-
 </body>
 </html>

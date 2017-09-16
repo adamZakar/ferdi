@@ -16,7 +16,8 @@
           <element id="library" level="project" name="Maven: org.springframework:spring-expression:4.3.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-web:4.3.4.RELEASE" />
           <element id="library" level="project" name="Maven: jstl:jstl:1.2" />
-          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.5" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-simple:1.6.4" />
         </element>
       </element>
       <element id="directory" name="META-INF">
