@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/spring-mvc-java-config-demo.iml" filepath="$PROJECT_DIR$/spring-mvc-java-config-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ferdaus-translator-page.iml" filepath="$PROJECT_DIR$/ferdaus-translator-page.iml" />
     </modules>
   </component>
 </project>

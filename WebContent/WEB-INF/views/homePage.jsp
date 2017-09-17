@@ -93,20 +93,17 @@ Header Section Start
         <nav class="collapse navbar-collapse navbar-right" role="navigation">
             <div class="main-menu">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <span><a href="${path}/home"> <img src="resources/images/hu.jpg" width=20px"/> </a></span>
-                    </li>
-                    <li>
-                        <span><a href="${path}/home?lang=en"> <img src="resources/images/en.jpg" width=20px/> </a></span>
-                    </li>
-                    <li>
-                        <span><a href="${path}/home?lang=pa"> <img src="resources/images/pa.jpg" width=20px/> </a></span>
-                    </li>
-                    <li>
-                        <span><a href="${path}/home?lang=ur"> <img src="resources/images/ur.jpg" width=20px/> </a></span>
-                    </li>
-                    <li>
-                        <span><a href="${path}/home?lang=pe"> <img src="resources/images/pe.jpg" width=20px/> </a></span>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><c:out value="${languages}"></c:out> <span class="caret"></span></a>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a href="${path}/home"> <img src="resources/images/hu.jpg" width=20px"/> MAGYAR </a></li>
+                                <li><a href="${path}/home?lang=en"> <img src="resources/images/en.jpg" width=20px/> ENGLISH </a></li>
+                                <li><a href="${path}/home?lang=pa"> <img src="resources/images/pa.jpg" width=20px/> PASTU </a></li>
+                                <li><a href="${path}/home?lang=pe"> <img src="resources/images/pe.jpg" width=20px/> PERSIAN </a></li>
+                                <li><a href="${path}/home?lang=ur"> <img src="resources/images/ur.jpg" width=20px/> URDU </a></li>
+                            </ul>
+                        </div>
                     </li>
                     <li><a href="${path}/home${lang}"> <c:out value="${home}"></c:out> </a></li>
                     <li class="dropdown">
@@ -152,7 +149,6 @@ Slider Section Start
                         With 3 years experience, I've occupied many roles including digital design director,<br> web designer and developer. This site showcases some of my work.
                     </h2>
                     <a class="btn-lines dark light wow fadeInUp animated smooth-scroll btn btn-default btn-green" data-wow-delay=".9s" href="#works" data-section="#works" ><c:out value="${view_works}"></c:out></a>
-
                 </div>
             </div>
         </div>

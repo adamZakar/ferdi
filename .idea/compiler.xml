@@ -6,10 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="ferdaus-translator-page" />
         <module name="spring-mvc-java-config-demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="ferdaus-translator-page" target="1.8" />
       <module name="spring-mvc-java-config-demo" target="1.8" />
     </bytecodeTargetLevel>
   </component>

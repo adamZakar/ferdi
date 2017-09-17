@@ -27,13 +27,7 @@ public class WelcomeController {
         return "homePage";
     }
 
-    @RequestMapping(value = "/contact")
-    public String getContactPage(@RequestParam(value = "lang",required =false) String lang, Model model) {
-        LOG.info("Contact has been called param:" +lang);
-        welcomeService.setResourceBundle(lang);
-        model.addAllAttributes(welcomeService.getInnerTexts("contact"));
-        return "contactPage";
-    }
+
 
     @RequestMapping(value = "/translation")
     public String getTranslationPage(@RequestParam(value = "lang",required =false) String lang, Model model) {
