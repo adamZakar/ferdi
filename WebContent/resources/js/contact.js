@@ -1,11 +1,8 @@
 ﻿function onsub() {  // a form submitja esetén fut le. Ez a függvény kezeli a többi függvényt.
 
-    if (validateselects()) { //ez a függvény validáltatja a selecteket.
+    //ez a függvény validáltatja a selecteket.
         collectdata(); //meghívja a függvényt ami összeállítja az adatokat.
         return false;
-    } else {
-        return false
-    };
 }
 
 
@@ -30,7 +27,8 @@ function validateselects() {
         lastEmail.classList.add("error");
         return false;
     }
-
+    alert("eljut idáig");
+    return true;
 }
 
 
@@ -55,10 +53,11 @@ function collectdata() {
 
 }
 function senddata(objectOfInputData) {
+
     console.log(objectOfInputData);
-    $.post("${home}/contact/submitContact", objectOfInputData, function (res) {
+    $.post("http://localhost:8080/contact/submitContact", objectOfInputData, function (res) {
         aftervalidate(res);
-    });
+    }, 'json');
 }
 
 function aftervalidate(res) {

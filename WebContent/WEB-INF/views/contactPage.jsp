@@ -100,22 +100,18 @@ Header Section Start
         <nav class="collapse navbar-collapse navbar-right" role="navigation">
             <div class="main-menu">
                 <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <span><a href="${path}/contact"> <img src="resources/images/hu.jpg" width=20px"/> </a></span>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><c:out value="${languages}"></c:out> <span class="caret"></span></a>
+                        <div class="dropdown-menu">
+                            <ul>
+                                <li><a href="${path}/contact"> <img src="resources/images/hu.jpg" width=20px"/> MAGYAR </a></li>
+                                <li><a href="${path}/contact?lang=en"> <img src="resources/images/en.jpg" width=20px/> ENGLISH </a></li>
+                                <li><a href="${path}/contact?lang=pa"> <img src="resources/images/pa.jpg" width=20px/> PASTU </a></li>
+                                <li><a href="${path}/contact?lang=pe"> <img src="resources/images/pe.jpg" width=20px/> PERSIAN </a></li>
+                                <li><a href="${path}/contact?lang=ur"> <img src="resources/images/ur.jpg" width=20px/> URDU </a></li>
+                            </ul>
+                        </div>
                     </li>
-                    <li>
-                        <span><a href="${path}/contact?lang=en"> <img src="resources/images/en.jpg" width=20px/> </a></span>
-                    </li>
-                    <li>
-                        <span><a href="${path}/contact?lang=pa"> <img src="resources/images/pa.jpg" width=20px/> </a></span>
-                    </li>
-                    <li>
-                        <span><a href="${path}/contact?lang=ur"> <img src="resources/images/ur.jpg" width=20px/> </a></span>
-                    </li>
-                    <li>
-                        <span><a href="${path}/contact?lang=pe"> <img src="resources/images/pe.jpg" width=20px/> </a></span>
-                    </li>
-
                     <li><a href="${path}/home${lang}"> <c:out value="${home}"></c:out> </a></li>
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown"><c:out value="${services}"></c:out> <span class="caret"></span></a>
@@ -175,22 +171,22 @@ Header Section Start
                         consectetur adipisicing elit. Dolore, ea!
                     </p>
                     <div class="contact-form">
-                        <form id="contact-form" onsubmit="return onsub()" role="form">
+                        <form id="contact-form" onsubmit="return onsub()">
 
                             <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".6s">
-                                <input type="text" placeholder="Your Name" class="form-control" name="name" id="name" required>
+                                <input type="text" placeholder="Your Name" class="form-control" name="name" id="name" >
                             </div>
 
                             <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".8s" >
-                                <input type="email" placeholder="Your Email" class="form-control" name="email" id="email" required>
+                                <input type="email" placeholder="Your Email" class="form-control" name="email" id="email" >
                             </div>
 
                             <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1s">
-                                <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject" required>
+                                <input type="text" placeholder="Subject" class="form-control" name="subject" id="subject">
                             </div>
 
                             <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay="1.2s">
-                                <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message" required></textarea>
+                                <textarea rows="6" placeholder="Message" class="form-control" name="message" id="message"></textarea>
                             </div>
 
 
