@@ -1,28 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/WebContent/resources/images" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7aa09076-5597-4387-b90e-50bad46cb6d2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/js/contact.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zakar/ferdaus/controller/ContactController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zakar/ferdaus/service/ContactParser.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zakar/ferdaus/service/ContactService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/zakar/ferdaus/service/ContactServiceImpl.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/spring_mvc_java_config_demo_war.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/artifacts/spring_mvc_java_config_demo_war_exploded.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_mail_mail_1_4_7.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_6_0_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_5_0_0_M5.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/views/contactPage.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/views/contactPage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/views/homePage.jsp" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/views/homePage.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zakar/ferdaus/controller/WelcomeController.java" afterPath="$PROJECT_DIR$/src/main/java/com/zakar/ferdaus/controller/WelcomeController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zakar/ferdaus/service/GenericWelcomeService.java" afterPath="$PROJECT_DIR$/src/main/java/com/zakar/ferdaus/service/GenericWelcomeService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/zakar/ferdaus/service/WelcomeService.java" afterPath="$PROJECT_DIR$/src/main/java/com/zakar/ferdaus/service/WelcomeService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/dictionary.properties" afterPath="$PROJECT_DIR$/src/main/resources/dictionary.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/dictionary_en.properties" afterPath="$PROJECT_DIR$/src/main/resources/dictionary_en.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/spring-mvc-java-config-demo.iml" afterPath="$PROJECT_DIR$/ferdaus-translator-page.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ferdaus-translator-page.iml" afterPath="$PROJECT_DIR$/ferdaus-translator-page.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,17 +27,17 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zakar/ferdaus/service/ContactService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="59" />
+              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="57" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contact.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="contact.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/resources/js/contact.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state relative-caret-position="238">
+              <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -60,24 +48,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="306">
               <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-              <folding>
-                <element signature="e#758#759#0" expanded="false" />
-                <element signature="e#785#786#0" expanded="false" />
-                <element signature="e#825#826#0" expanded="false" />
-                <element signature="e#857#858#0" expanded="false" />
-                <element signature="e#889#890#0" expanded="false" />
-                <element signature="e#917#918#0" expanded="false" />
-                <element signature="e#959#960#0" expanded="false" />
-                <element signature="e#993#994#0" expanded="false" />
-                <element signature="e#1027#1028#0" expanded="false" />
-                <element signature="e#1057#1058#0" expanded="false" />
-                <element signature="e#1103#1104#0" expanded="false" />
-                <element signature="e#1141#1142#0" expanded="false" />
-                <element signature="e#1175#1176#0" expanded="false" />
-                <element signature="e#1205#1206#0" expanded="false" />
-                <element signature="e#1251#1252#0" expanded="false" />
-                <element signature="e#1289#1290#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -95,21 +66,59 @@
       <file leaf-file-name="ContactServiceImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/zakar/ferdaus/service/ContactServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="2091">
+              <caret line="125" column="4" lean-forward="false" selection-start-line="125" selection-start-column="4" selection-end-line="125" selection-end-column="4" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contactPage.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="contactPage.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/views/contactPage.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="72" column="7" lean-forward="true" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
-              <folding />
+            <state relative-caret-position="1224">
+              <caret line="72" column="7" lean-forward="false" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
+              <folding>
+                <marker date="1505751071463" expanded="true" signature="7742:7905" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="8021:8189" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="8304:8471" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="8588:8766" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="8885:9048" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="9184:10117" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="9223:10098" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="9447:9644" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="9682:10075" ph="..." />
+                <marker date="1505751071463" expanded="false" signature="10013:10021" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="10174:11443" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="10209:10496" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="10309:10477" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="10531:10818" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="10631:10799" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="10853:11129" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="10951:11110" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="11164:11428" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="11262:11409" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="11477:11613" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="11645:12419" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="11673:12408" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="11699:12397" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="11735:12381" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="11771:12362" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="12427:12555" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="12578:13664" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="12606:13654" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="12637:12797" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="12828:13643" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="12894:13628" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="12915:13072" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="12965:13050" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="13093:13248" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="13142:13226" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="13269:13426" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="13319:13404" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="13447:13609" ph="..." />
+                <marker date="1505751071463" expanded="true" signature="13500:13587" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,10 +148,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-              <folding>
-                <element signature="e#510#511#0" expanded="false" />
-                <element signature="e#584#585#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -303,6 +309,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -501,9 +510,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -523,6 +529,127 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Programok\Saját fejlesztés\ferdi\src\main" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.project</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/.settings/org.eclipse.wst.common.component</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/WebContent/WEB-INF/views/contactPage.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/WebContent/WEB-INF/views/inquiry.jsp</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/pom.xml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/com/zakar/ferdaus/service/ContactService.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/java/com/zakar/ferdaus/service/ContactServiceImpl.java</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/WebContent/resources/en.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/WebContent/resources/hu.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/WebContent/resources/pa.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/WebContent/resources/pe.jpg</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/WebContent/resources/ur.jpg</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1055,7 +1182,8 @@
       <workItem from="1505639033949" duration="7539000" />
       <workItem from="1505670659705" duration="155000" />
       <workItem from="1505670849400" duration="671000" />
-      <workItem from="1505684845522" duration="1821000" />
+      <workItem from="1505684845522" duration="3137000" />
+      <workItem from="1505751038292" duration="348000" />
     </task>
     <task id="LOCAL-00001" summary="Services implementation.">
       <created>1505565579147</created>
@@ -1085,15 +1213,28 @@
       <option name="project" value="LOCAL" />
       <updated>1505602986932</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fixing bugs, and filling up the properties.">
+      <created>1505691258143</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1505691258143</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Adding resources to the repository">
+      <created>1505751362831</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1505751362831</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48101000" />
+    <option name="totallyTimeSpent" value="49765000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1109,16 +1250,15 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26498422" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26498422" sideWeight="0.49707174" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23426062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23426062" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -1126,6 +1266,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -1175,7 +1316,8 @@
     <MESSAGE value="Services implementation." />
     <MESSAGE value="Starting html implementation." />
     <MESSAGE value="Fixing bugs, and filling up the properties." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing bugs, and filling up the properties." />
+    <MESSAGE value="Adding resources to the repository" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding resources to the repository" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1362,23 +1504,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/dictionary.properties">
+      <provider editor-type-id="ResourceBundle">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="24" lean-forward="false" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dictionary_en.properties">
       <provider editor-type-id="ResourceBundle">
         <state />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dictionary_en.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
         </state>
-      </provider>
-      <provider editor-type-id="ResourceBundle">
-        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/resources/js/script.js" />
@@ -1439,9 +1581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1449,7 +1588,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1473,10 +1611,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="19" lean-forward="false" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
-          <folding>
-            <element signature="e#510#511#0" expanded="false" />
-            <element signature="e#584#585#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1484,24 +1619,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
-          <folding>
-            <element signature="e#758#759#0" expanded="false" />
-            <element signature="e#785#786#0" expanded="false" />
-            <element signature="e#825#826#0" expanded="false" />
-            <element signature="e#857#858#0" expanded="false" />
-            <element signature="e#889#890#0" expanded="false" />
-            <element signature="e#917#918#0" expanded="false" />
-            <element signature="e#959#960#0" expanded="false" />
-            <element signature="e#993#994#0" expanded="false" />
-            <element signature="e#1027#1028#0" expanded="false" />
-            <element signature="e#1057#1058#0" expanded="false" />
-            <element signature="e#1103#1104#0" expanded="false" />
-            <element signature="e#1141#1142#0" expanded="false" />
-            <element signature="e#1175#1176#0" expanded="false" />
-            <element signature="e#1205#1206#0" expanded="false" />
-            <element signature="e#1251#1252#0" expanded="false" />
-            <element signature="e#1289#1290#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1521,36 +1639,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/zakar/ferdaus/service/ContactServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/zakar/ferdaus/service/ContactService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/resources/js/contact.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="10" selection-end-column="57" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/views/contactPage.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="72" column="7" lean-forward="true" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
+        <state relative-caret-position="1224">
+          <caret line="72" column="7" lean-forward="false" selection-start-line="72" selection-start-column="7" selection-end-line="72" selection-end-column="7" />
+          <folding>
+            <marker date="1505751071463" expanded="true" signature="7742:7905" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="8021:8189" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="8304:8471" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="8588:8766" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="8885:9048" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="9184:10117" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="9223:10098" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="9447:9644" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="9682:10075" ph="..." />
+            <marker date="1505751071463" expanded="false" signature="10013:10021" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="10174:11443" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="10209:10496" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="10309:10477" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="10531:10818" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="10631:10799" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="10853:11129" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="10951:11110" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="11164:11428" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="11262:11409" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="11477:11613" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="11645:12419" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="11673:12408" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="11699:12397" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="11735:12381" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="11771:12362" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="12427:12555" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="12578:13664" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="12606:13654" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="12637:12797" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="12828:13643" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="12894:13628" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="12915:13072" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="12965:13050" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="13093:13248" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="13142:13226" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="13269:13426" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="13319:13404" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="13447:13609" ph="..." />
+            <marker date="1505751071463" expanded="true" signature="13500:13587" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/zakar/ferdaus/service/ContactServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2091">
+          <caret line="125" column="4" lean-forward="false" selection-start-line="125" selection-start-column="4" selection-end-line="125" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/resources/js/contact.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding />
         </state>
       </provider>
