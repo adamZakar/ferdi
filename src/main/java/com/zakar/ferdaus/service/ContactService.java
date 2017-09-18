@@ -8,7 +8,6 @@ import java.util.List;
 public interface ContactService {
 
     boolean contactRequestHandler();
-    boolean sendEmail(List<String> addresses, String text);
-
+    boolean sendEmail(List<String> addresses, String text, String lang);
 
 }

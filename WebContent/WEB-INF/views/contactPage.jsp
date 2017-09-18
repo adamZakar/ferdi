@@ -175,7 +175,7 @@ Header Section Start
                         consectetur adipisicing elit. Dolore, ea!
                     </p>
                     <div class="contact-form">
-                        <form id="contact-form" method="post" onsubmit="return onsub()" role="form">
+                        <form id="contact-form" onsubmit="return onsub()" role="form">
 
                             <div class="form-group wow fadeInDown" data-wow-duration="500ms" data-wow-delay=".6s">
                                 <input type="text" placeholder="Your Name" class="form-control" name="name" id="name" required>
