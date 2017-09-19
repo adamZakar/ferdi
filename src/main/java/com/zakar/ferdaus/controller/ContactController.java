@@ -37,7 +37,7 @@ public class ContactController {
     public @ResponseBody ContactParser addNewWorker(@RequestBody ContactParser jsonString) {
         LOG.info("JSON has been received: "+jsonString.toString());
 
-        return jsonString;
+        return null;
     }
 
 }

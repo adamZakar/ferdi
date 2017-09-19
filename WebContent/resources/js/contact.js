@@ -53,11 +53,10 @@ function collectdata() {
 
 }
 function senddata(objectOfInputData) {
-
-    console.log(objectOfInputData);
-    $.post("http://localhost:8080/contact/submitContact", objectOfInputData, function (res) {
-        aftervalidate(res);
-    }, 'json');
+   
+jQuery.post( "http://localhost:8080/contact/submitContact", function( objectOfInputData ) {
+  console.log("success")
+});
 }
 
 function aftervalidate(res) {

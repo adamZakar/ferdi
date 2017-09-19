@@ -56,7 +56,7 @@
     <!-- modernizr js -->
     <script src="/resources/js/vendor/modernizr-2.6.2.min.js"></script>
     <!-- jquery -->
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <!-- owl carouserl js -->
     <script src="/resources/js/owl.carousel.min.js"></script>
     <!-- bootstrap js -->

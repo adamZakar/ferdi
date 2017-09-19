@@ -1,10 +1,13 @@
 package com.zakar.ferdaus.config;
 
+import javax.sql.DataSource;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
+import org.springframework.jdbc.datasource.lookup.JndiDataSourceLookup;
 import org.springframework.web.servlet.config.annotation.*;
 import org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping;
 import org.springframework.web.servlet.view.JstlView;
@@ -26,6 +29,13 @@ public class WebMvcConfig extends WebMvcConfigurerAdapter {
 		return resolver;
 	}
 
+/*	@Bean
+	public DataSource dataSource() {
+		final JndiDataSourceLookup dsLookup= new JndiDataSourceLookup();
+	    dsLookup.setResourceRef(true); //full JNDI  name would be required one line down java:comp/en...
+	    DataSource dataSource = dsLookup.getDataSource("jdbc/springdb");
+	    return dataSource;
+	}*/
 
 //	@Bean
 //	public RequestMappingHandlerMapping requestMappingHandlerMapping() {
